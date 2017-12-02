@@ -1,0 +1,5 @@
+package rest.basic.testing;
+
+public class ParsingJson {
+
+}

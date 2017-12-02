@@ -6,7 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
-import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 
 public class PostXMLRequest {
@@ -31,10 +30,6 @@ public class PostXMLRequest {
 		String respose = res.asString();
 		System.out.println(respose);
 		
-		XmlPath xmlResponse = new XmlPath(respose);
-		String placeId = xmlResponse.get("PlaceAddResponse.place_id");
-		System.out.println("*********************");
-		System.out.println(placeId);
 
 	}
 	

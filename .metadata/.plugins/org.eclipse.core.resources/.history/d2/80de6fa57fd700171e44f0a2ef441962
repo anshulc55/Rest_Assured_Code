@@ -32,9 +32,7 @@ public class PostXMLRequest {
 		System.out.println(respose);
 		
 		XmlPath xmlResponse = new XmlPath(respose);
-		String placeId = xmlResponse.get("PlaceAddResponse.place_id");
-		System.out.println("*********************");
-		System.out.println(placeId);
+		xmlResponse.get("PlaceAddResponse.place_id");
 
 	}
 	
