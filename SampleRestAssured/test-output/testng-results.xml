@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1796" started-at="2017-12-02T07:43:25Z" finished-at="2017-12-02T07:43:27Z">
+  <suite name="Default suite" duration-ms="1614" started-at="2017-12-02T15:00:35Z" finished-at="2017-12-02T15:00:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1796" started-at="2017-12-02T07:43:25Z" finished-at="2017-12-02T07:43:27Z">
-      <class name="rest.basic.testing.PostRequest">
-        <test-method status="PASS" signature="verifyResponse()[pri:0, instance:rest.basic.testing.PostRequest@27efef64]" name="verifyResponse" duration-ms="1779" started-at="2017-12-02T13:13:25Z" finished-at="2017-12-02T13:13:27Z">
+    <test name="Default test" duration-ms="1614" started-at="2017-12-02T15:00:35Z" finished-at="2017-12-02T15:00:37Z">
+      <class name="rest.basic.xml.PostXMLRequest">
+        <test-method status="PASS" signature="verifyResponse()[pri:0, instance:rest.basic.xml.PostXMLRequest@27efef64]" name="verifyResponse" duration-ms="1595" started-at="2017-12-02T20:30:35Z" finished-at="2017-12-02T20:30:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponse -->
-      </class> <!-- rest.basic.testing.PostRequest -->
+      </class> <!-- rest.basic.xml.PostXMLRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

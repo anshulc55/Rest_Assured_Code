@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestRESTAssured" >
+  
+  <test name="REST API" >
+  
+  <!–   Declare Parameters –>
+   <!--  <parameter name=”userName” value=”Selenium”/>
+    <parameter name=”password” value=”Selenium@”/> -->
+    
+    <classes>
+       <class name="rest.basic.testing.ResponseValidation" />
+    </classes>
+  </test>
+</suite>

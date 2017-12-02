@@ -1,0 +1,16 @@
+<suite name=”TestGroupSuite” >
+  <listeners>
+      <listener class-name=”org.uncommons.reportng.HTMLReporter”/>
+      <listener class-name=”org.uncommons.reportng.JUnitXMLReporter”/>
+  </listeners>
+  <test name=”Test With Priority” >
+  
+  <!–   Declare Parameters –>
+    <parameter name=”userName” value=”Selenium”/>
+    <parameter name=”password” value=”Selenium@”/>
+    
+    <classes>
+       <class name=”com.Seleniumbix.TestNG.SampleParameterization” />
+    </classes>
+  </test>
+</suite>

@@ -32,16 +32,6 @@ public class PostRequest {
 			when().
 				post("/maps/api/place/add/json").
 		 then().assertThat().statusCode(200).and().body("status", equalTo("OK"));
-		 
-		 
-		 
-		 /*.and().
-		 contentType(ContentType.JSON).and().
-		 body("results[0].name", equalTo("The Little Snail Restaurant")).and().
-		 body("results[13].name", equalTo("Harvest Buffet")).and().
-		 body("results[5].vicinity", equalTo("80 Pyrmont Street, Pyrmont")).and().
-		 header("server", "pablo");*/
-		 
 	}
 
 }
