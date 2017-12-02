@@ -1,0 +1,21 @@
+package rest.basic.testing;
+
+import io.restassured.RestAssured;
+
+public class GetRequestSample {
+	
+	 //BaseURI
+	public static String baseURI = "https://maps.googleapis.com";
+	
+	
+	public static void searchPlaceInGoogle(){
+		
+		RestAssured.baseURI = baseURI;
+		
+		given().
+		
+		
+	}
+
+
+}

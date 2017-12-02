@@ -1,0 +1,29 @@
+package rest.basic.testing;
+
+import io.restassured.RestAssured;
+import scala.annotation.meta.param;
+
+import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.when;
+
+public class GetRequestSample {
+	
+	 //BaseURI
+	public static String baseURI = "https://maps.googleapis.com";
+	
+	public static void searchPlaceInGoogle(){
+		
+		
+		RestAssured.baseURI = baseURI;
+		given().
+		 param("location", "-33.8670522,151.1957362").
+		 param("radius", "500").
+		 param("type", "restaurant").
+		 param("key", "AIzaSyB-ZliaFkPtyfykn7E2nW2yxgBPAvRVUMo").
+		 when().
+		 get("/maps/api/place/nearbysearch/json").
+		 then().assertThat().statusCode(200);
+	}
+
+
+}
