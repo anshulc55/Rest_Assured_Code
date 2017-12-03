@@ -1,0 +1,7 @@
+{
+    "body": "This is my Secound Comment.",
+    "visibility": {
+        "type": "role",
+        "value": "Administrators"
+    }
+}

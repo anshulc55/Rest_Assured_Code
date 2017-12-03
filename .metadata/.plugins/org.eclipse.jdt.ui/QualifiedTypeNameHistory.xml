@@ -8,4 +8,13 @@
 <fullyQualifiedTypeName name="org.codehaus.groovy.transform.EqualsAndHashCodeASTTransformation"/>
 <fullyQualifiedTypeName name="org.hamcrest.Matcher"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="com.google.common.io.Files"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.nio.file.Path"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="io.restassured.path.xml.XmlPath"/>
+<fullyQualifiedTypeName name="io.restassured.response.Response"/>
+<fullyQualifiedTypeName name="io.restassured.path.json.JsonPath"/>
 </qualifiedTypeNameHistroy>

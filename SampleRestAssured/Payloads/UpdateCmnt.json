@@ -1,0 +1,7 @@
+{
+    "body": "Updating Comment inside the Issue RAT-9. Please retest your scenario.",
+    "visibility": {
+        "type": "role",
+        "value": "Administrators"
+    }
+}

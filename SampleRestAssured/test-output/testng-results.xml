@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2440" started-at="2017-12-02T17:33:52Z" finished-at="2017-12-02T17:33:54Z">
+  <suite name="Default suite" duration-ms="1831" started-at="2017-12-03T06:15:12Z" finished-at="2017-12-03T06:15:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2440" started-at="2017-12-02T17:33:52Z" finished-at="2017-12-02T17:33:54Z">
-      <class name="rest.basic.testing.ParsingJson">
-        <test-method status="PASS" signature="verifyResponse()[pri:0, instance:rest.basic.testing.ParsingJson@27efef64]" name="verifyResponse" duration-ms="2423" started-at="2017-12-02T23:03:52Z" finished-at="2017-12-02T23:03:54Z">
+    <test name="Default test" duration-ms="1831" started-at="2017-12-03T06:15:12Z" finished-at="2017-12-03T06:15:14Z">
+      <class name="rest.jiraAPI.testing.UpdateComment">
+        <test-method status="PASS" signature="verifyResponse()[pri:0, instance:rest.jiraAPI.testing.UpdateComment@27efef64]" name="verifyResponse" duration-ms="1813" started-at="2017-12-03T11:45:12Z" finished-at="2017-12-03T11:45:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponse -->
-      </class> <!-- rest.basic.testing.ParsingJson -->
+      </class> <!-- rest.jiraAPI.testing.UpdateComment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

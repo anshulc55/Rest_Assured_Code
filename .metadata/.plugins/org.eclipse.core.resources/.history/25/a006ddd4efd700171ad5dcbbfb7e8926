@@ -1,0 +1,7 @@
+{
+    "body": "Adding my First Comment.",
+    "visibility": {
+        "type": "role",
+        "value": "Administrators"
+    }
+}

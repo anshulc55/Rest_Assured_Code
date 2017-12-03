@@ -1,0 +1,5 @@
+package rest.jiraAPI.testing;
+
+public class UpdateComment {
+
+}
