@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
 <fullyQualifiedTypeName name="scala.annotation.meta.param"/>
 <fullyQualifiedTypeName name="javax.annotation.meta.When"/>
-<fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
 <fullyQualifiedTypeName name="scala.Equals"/>
 <fullyQualifiedTypeName name="org.codehaus.groovy.transform.EqualsAndHashCodeASTTransformation"/>
 <fullyQualifiedTypeName name="org.hamcrest.Matcher"/>
@@ -17,4 +16,6 @@
 <fullyQualifiedTypeName name="io.restassured.path.xml.XmlPath"/>
 <fullyQualifiedTypeName name="io.restassured.response.Response"/>
 <fullyQualifiedTypeName name="io.restassured.path.json.JsonPath"/>
+<fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

@@ -60,5 +60,7 @@
 	<classpathentry kind="lib" path="C:/Rest_Assured_Jars/xml-path-3.0.6-dist/xml-path-3.0.6-deps/jaxb-api-2.2.12.jar"/>
 	<classpathentry kind="lib" path="C:/Rest_Assured_Jars/xml-path-3.0.6-dist/xml-path-3.0.6-deps/tagsoup-1.2.1.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Rest_Assured_Jars/scribejava-apis-2.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Rest_Assured_Jars/scribejava-core-2.5.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
